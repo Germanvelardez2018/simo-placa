@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bluepill)(type KiCad)(uri /home/gvelardez/simo_pcb/simo/Kicad-STM32-master/Footprints)(options "")(descr ""))
+)
