@@ -1,4 +1,4 @@
-19004720208711851
+19006372686455851
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83083,12 +83083,19 @@ module BlluePill Blue Pill header SWD breakout
 44
 44
 bluepill
+elemon_boarD
+
+
+0
+112
+1
+bluepill
 elemon_board
 
 
 0
-0
-0
+122
+2
 bluepill
 elemon_board_template
 

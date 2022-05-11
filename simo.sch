@@ -19,7 +19,7 @@ U 1 1 62795768
 P 950 2900
 F 0 "J3" H 842 2375 50  0000 C CNN
 F 1 "Conector_Memoria_Flash_EXT" H 842 2466 50  0000 C CNN
-F 2 "Connector_Wago:Wago_734-136_1x06_P3.50mm_Vertical" H 950 2900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 950 2900 50  0001 C CNN
 F 3 "~" H 950 2900 50  0001 C CNN
 	1    950  2900
 	-1   0    0    1   
@@ -38,7 +38,7 @@ U 1 1 627BE000
 P 6300 2400
 F 0 "J6" H 6328 2376 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 6328 2285 50  0000 L CNN
-F 2 "Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical" H 6300 2400 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6300 2400 50  0001 C CNN
 F 3 "~" H 6300 2400 50  0001 C CNN
 	1    6300 2400
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 627C102B
 P 4000 800
 F 0 "J4" V 3938 512 50  0000 R CNN
 F 1 "Conn_01x04_Female" V 3847 512 50  0000 R CNN
-F 2 "Connector_Wago:Wago_734-134_1x04_P3.50mm_Vertical" H 4000 800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4000 800 50  0001 C CNN
 F 3 "~" H 4000 800 50  0001 C CNN
 	1    4000 800 
 	0    -1   -1   0   
@@ -94,7 +94,7 @@ U 1 1 627DFF15
 P 6300 1600
 F 0 "J5" H 6328 1576 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 6328 1485 50  0000 L CNN
-F 2 "Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical" H 6300 1600 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6300 1600 50  0001 C CNN
 F 3 "~" H 6300 1600 50  0001 C CNN
 	1    6300 1600
 	1    0    0    -1  
