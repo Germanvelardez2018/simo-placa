@@ -1,4 +1,4 @@
-19006372686455851
+19012982150424851
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83083,19 +83083,47 @@ module BlluePill Blue Pill header SWD breakout
 44
 44
 bluepill
-elemon_boarD
+bateria
 
 
 0
-112
-1
+2
+2
+bluepill
+cargador_bat
+
+
+0
+0
+0
+bluepill
+conector_flash_ext
+Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x08 2.54mm single row
+0
+13
+8
+bluepill
+debug_usb
+
+
+0
+14
+14
 bluepill
 elemon_board
 
 
 0
-122
-2
+120
+58
+bluepill
+elemon_board_compact
+
+
+0
+62
+58
 bluepill
 elemon_board_template
 

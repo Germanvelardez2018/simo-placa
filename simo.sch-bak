@@ -14,227 +14,162 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x06_Female J3
-U 1 1 62795768
-P 950 2900
-F 0 "J3" H 842 2375 50  0000 C CNN
-F 1 "Conector_Memoria_Flash_EXT" H 842 2466 50  0000 C CNN
-F 2 "Connector_Wago:Wago_734-136_1x06_P3.50mm_Vertical" H 950 2900 50  0001 C CNN
-F 3 "~" H 950 2900 50  0001 C CNN
-	1    950  2900
-	-1   0    0    1   
-$EndComp
-Text Label 5450 3100 0    50   ~ 0
-PB8
-Wire Wire Line
-	5000 3100 5450 3100
-Text Label 1400 2900 0    50   ~ 0
-PB8
-Wire Wire Line
-	1150 2900 1400 2900
-$Comp
 L Connector:Conn_01x02_Female J6
 U 1 1 627BE000
-P 6300 2400
-F 0 "J6" H 6328 2376 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6328 2285 50  0000 L CNN
-F 2 "Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical" H 6300 2400 50  0001 C CNN
-F 3 "~" H 6300 2400 50  0001 C CNN
-	1    6300 2400
+P 6500 4500
+F 0 "J6" H 6528 4476 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6528 4385 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6500 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 2400 6100 2400
+	5200 4500 6300 4500
 Wire Wire Line
-	5000 2500 6100 2500
+	5200 4600 6300 4600
 $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 627C102B
-P 4000 800
-F 0 "J4" V 3938 512 50  0000 R CNN
-F 1 "Conn_01x04_Female" V 3847 512 50  0000 R CNN
-F 2 "Connector_Wago:Wago_734-134_1x04_P3.50mm_Vertical" H 4000 800 50  0001 C CNN
-F 3 "~" H 4000 800 50  0001 C CNN
-	1    4000 800 
+P 4200 2900
+F 0 "J4" V 4138 2612 50  0000 R CNN
+F 1 "Conn_01x04_Female" V 4047 2612 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4200 2900 50  0001 C CNN
+F 3 "~" H 4200 2900 50  0001 C CNN
+	1    4200 2900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3900 1000 3900 1300
+	4100 3100 4100 3400
 Wire Wire Line
-	4000 1000 4000 1300
+	4200 3100 4200 3400
 Wire Wire Line
-	4100 1000 4100 1300
+	4300 3100 4300 3400
 Wire Wire Line
-	4200 1000 4200 1300
+	4400 3100 4400 3400
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 627D6DA6
-P 950 1700
-F 0 "J1" H 842 1375 50  0000 C CNN
-F 1 "PWR  ENA_BAT" H 842 1466 50  0000 C CNN
-F 2 "" H 950 1700 50  0001 C CNN
-F 3 "~" H 950 1700 50  0001 C CNN
-	1    950  1700
+P 1150 3800
+F 0 "J1" H 1042 3475 50  0000 C CNN
+F 1 "PWR  ENA_BAT" H 1042 3566 50  0000 C CNN
+F 2 "" H 1150 3800 50  0001 C CNN
+F 3 "~" H 1150 3800 50  0001 C CNN
+	1    1150 3800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 627D7B24
-P 950 2200
-F 0 "J2" H 842 1875 50  0000 C CNN
-F 1 "SIM7000G_CMD" H 842 1966 50  0000 C CNN
-F 2 "" H 950 2200 50  0001 C CNN
-F 3 "~" H 950 2200 50  0001 C CNN
-	1    950  2200
+P 1150 4300
+F 0 "J2" H 1042 3975 50  0000 C CNN
+F 1 "SIM7000G_CMD" H 1042 4066 50  0000 C CNN
+F 2 "" H 1150 4300 50  0001 C CNN
+F 3 "~" H 1150 4300 50  0001 C CNN
+	1    1150 4300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Female J5
 U 1 1 627DFF15
-P 6300 1600
-F 0 "J5" H 6328 1576 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 6328 1485 50  0000 L CNN
-F 2 "Connector_Wago:Wago_734-132_1x02_P3.50mm_Vertical" H 6300 1600 50  0001 C CNN
-F 3 "~" H 6300 1600 50  0001 C CNN
-	1    6300 1600
+P 6500 3700
+F 0 "J5" H 6528 3676 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6528 3585 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6500 3700 50  0001 C CNN
+F 3 "~" H 6500 3700 50  0001 C CNN
+	1    6500 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 1600 6100 1600
+	5200 3700 6300 3700
 Wire Wire Line
-	5000 1700 6100 1700
+	5200 3800 6300 3800
 Wire Wire Line
-	3200 3200 2800 3200
+	3400 5300 3000 5300
 Wire Wire Line
-	2800 3200 2800 3900
+	3000 5300 3000 6000
 Wire Wire Line
-	2800 3900 5400 3900
+	3000 6000 5600 6000
 Wire Wire Line
-	5400 3200 5000 3200
+	5600 5300 5200 5300
 Wire Wire Line
-	5400 3200 5400 3900
+	5600 5300 5600 6000
 Wire Wire Line
-	1150 2800 3200 2800
+	3400 4300 1350 4300
 Wire Wire Line
-	1150 2700 3200 2700
+	3400 4200 1350 4200
 Wire Wire Line
-	1150 2600 3200 2600
+	1350 3800 3400 3800
 Wire Wire Line
-	3200 2200 1150 2200
-Wire Wire Line
-	3200 2100 1150 2100
-Wire Wire Line
-	1150 1700 3200 1700
-Wire Wire Line
-	1150 1600 3200 1600
+	1350 3700 3400 3700
 $Comp
 L YAAJ_BlackPill_Part_Like_SWD_Breakout:YAAJ_BlackPill_Part_Like_SWD_Breakout U1
 U 1 1 62792769
-P 4100 2400
-F 0 "U1" H 4100 1427 50  0000 C CNN
-F 1 "YAAJ_BlackPill_Part_Like_SWD_Breakout" H 4100 1336 50  0000 C CNN
-F 2 "bluepill:YAAJ_BluePill_SWD_1" H 4750 1200 50  0001 C CNN
-F 3 "" H 4750 1200 50  0001 C CNN
-	1    4100 2400
+P 4300 4500
+F 0 "U1" H 4300 3527 50  0000 C CNN
+F 1 "YAAJ_BlackPill_Part_Like_SWD_Breakout" H 4300 3436 50  0000 C CNN
+F 2 "bluepill:YAAJ_BluePill_SWD_1" H 4950 3300 50  0001 C CNN
+F 3 "" H 4950 3300 50  0001 C CNN
+	1    4300 4500
 	1    0    0    -1  
+$EndComp
+$Comp
+L YAAJ_BlackPill:flash_externa U2
+U 1 1 627D54B5
+P 1100 6350
+F 0 "U2" H 1042 5285 50  0000 C CNN
+F 1 "flash_externa" H 1042 5376 50  0000 C CNN
+F 2 "bluepill:conector_flash_ext" H 1100 6350 50  0001 C CNN
+F 3 "" H 1100 6350 50  0001 C CNN
+	1    1100 6350
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1150 3100 1150 3200
+	1350 6100 2000 6100
 Wire Wire Line
-	1150 3200 2800 3200
-Connection ~ 2800 3200
+	2000 6100 2000 5300
 Wire Wire Line
-	1300 3100 3200 3100
+	2200 5200 2200 6200
 Wire Wire Line
-	1150 3000 1300 3000
+	2200 6200 1350 6200
 Wire Wire Line
-	1300 3000 1300 3100
+	2200 5200 3400 5200
+Wire Wire Line
+	2000 5300 3000 5300
+Connection ~ 3000 5300
+Wire Wire Line
+	1500 4700 1500 5800
+Wire Wire Line
+	1500 5800 1350 5800
+Wire Wire Line
+	1500 4700 3400 4700
+Wire Wire Line
+	1600 6000 1350 6000
+Wire Wire Line
+	1600 4800 3400 4800
+Wire Wire Line
+	1600 4800 1600 6000
+Wire Wire Line
+	3400 4900 1700 4900
+Wire Wire Line
+	1700 4900 1700 5900
+Wire Wire Line
+	1700 5900 1350 5900
+Wire Wire Line
+	5200 5200 5450 5200
+Wire Wire Line
+	5450 5200 5450 5700
+Wire Wire Line
+	1350 5700 5450 5700
 $Comp
-L Connector:Conn_01x16_Female J7
-U 1 1 6282C55D
-P 6500 3750
-F 0 "J7" H 6528 3726 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 6528 3635 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 6500 3750 50  0001 C CNN
-F 3 "~" H 6500 3750 50  0001 C CNN
-	1    6500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x16_Female J9
-U 1 1 62831C02
-P 7850 3700
-F 0 "J9" H 7878 3676 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 7878 3585 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 7850 3700 50  0001 C CNN
-F 3 "~" H 7850 3700 50  0001 C CNN
-	1    7850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x14_Female J8
-U 1 1 62833147
-P 6500 5450
-F 0 "J8" H 6528 5426 50  0000 L CNN
-F 1 "Conn_01x14_Female" H 6528 5335 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 6500 5450 50  0001 C CNN
-F 3 "~" H 6500 5450 50  0001 C CNN
-	1    6500 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Female J10
-U 1 1 62835985
-P 7850 5200
-F 0 "J10" H 7878 5176 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 7878 5085 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 7850 5200 50  0001 C CNN
-F 3 "~" H 7850 5200 50  0001 C CNN
-	1    7850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x16_Female J11
-U 1 1 6287AA53
-P 3200 5100
-F 0 "J11" H 3228 5076 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 3228 4985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 3200 5100 50  0001 C CNN
-F 3 "~" H 3200 5100 50  0001 C CNN
-	1    3200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x16_Female J13
-U 1 1 6287AD91
-P 4550 5050
-F 0 "J13" H 4578 5026 50  0000 L CNN
-F 1 "Conn_01x16_Female" H 4578 4935 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 4550 5050 50  0001 C CNN
-F 3 "~" H 4550 5050 50  0001 C CNN
-	1    4550 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x14_Female J12
-U 1 1 6287AD9B
-P 3200 6800
-F 0 "J12" H 3228 6776 50  0000 L CNN
-F 1 "Conn_01x14_Female" H 3228 6685 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 3200 6800 50  0001 C CNN
-F 3 "~" H 3200 6800 50  0001 C CNN
-	1    3200 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Female J14
-U 1 1 6287ADA5
-P 4550 6550
-F 0 "J14" H 4578 6526 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 4578 6435 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 4550 6550 50  0001 C CNN
-F 3 "~" H 4550 6550 50  0001 C CNN
-	1    4550 6550
+L YAAJ_BlackPill:bateria U3
+U 1 1 627F9343
+P 7600 1050
+F 0 "U3" H 7878 826 50  0000 L CNN
+F 1 "bateria" H 7878 735 50  0000 L CNN
+F 2 "bluepill:bateria" H 7600 1050 50  0001 C CNN
+F 3 "" H 7600 1050 50  0001 C CNN
+	1    7600 1050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
